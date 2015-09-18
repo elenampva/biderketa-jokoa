@@ -1,0 +1,1903 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>biderketa taula</title>
+
+<style type="text/css">
+</style>
+<link href="estilo_biderketa_taula.css" rel="stylesheet" type="text/css" />
+
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+  /*Ready es un método de jQuery que hace que la función se ejecute cuando el documento esté cargado*/
+	
+	$("#button").click(function(){
+		 /*Con el signo $ se indica el elemento en el que se va a ejecutar la función, en este caso la función se ejecutará al hacer clic en el botón del formulario*/
+
+	var nombre = $("#nombre").val() /*Se recoge en la variable nombre el valor del campo con id nombre(#) del formulario (form) */
+	var nombre=nombre.toLowerCase()/*Se pasa a minúsculas el valor recogido en el campo nombre*/
+	var edad = $("#edad").val()/*Se recoge en la variable edad el valor del campo con id (#)edad del formulario (form) */
+	
+	switch(nombre){
+	/*El valor entre paréntesis corresponde al valor de una variable; la variable nombre ya se ha definido anteriormente*/
+		case 'igor':
+		alert ('Igor es un nombre ruso, ¿verdad?. Bienvenido, puedes empezar a jugar.');
+		break;
+		
+		case 'ibone':
+		alert ('Ibone es un nombre francés, ¿verdad?. Bienvenida, puedes empezar a jugar.');
+		break;
+		
+		case 'eneko':
+		alert ('¿Eneko es un nombre cubano?');
+		break;
+		
+		default:
+		alert ('Hola ' + nombre.charAt(0).toUpperCase() + nombre.charAt(1) + nombre.charAt(2) + nombre.charAt(3) + nombre.charAt(4) + nombre.charAt(5) + nombre.charAt(6)+ nombre.charAt(7)+' puedes empezar a jugar.');
+	}//cierre de switch.
+
+		$ ("form").hide ("slow");
+    /*Una vez completados los campos del formulario, desaparece*/
+		
+	});//cierre función click
+	
+		$ ("#c2f2").mouseover (function (){
+		$ ("#c1f2").addClass ("background_color");
+		$ ("#c2f1").addClass ("background_color");
+		$ ("#c2f2").addClass ("background_color");
+	});//cierre función mouseover
+	
+		$ ("#c2f2").mouseout (function (){
+		$ ("#c1f2").removeClass ();
+		$ ("#c2f1").removeClass ();
+		$ ("#c2f2").removeClass ();
+	});//cierre función mouseout
+
+	  $ ("#c3f2").mouseover (function (){
+    $ ("#c1f2").addClass ("background_color");
+    $ ("#c3f1").addClass ("background_color");
+    $ ("#c3f2").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c3f2").mouseout (function (){
+    $ ("#c1f2").removeClass ();
+    $ ("#c3f1").removeClass ();
+    $ ("#c3f2").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c4f2").mouseover (function (){
+    $ ("#c1f2").addClass ("background_color");
+    $ ("#c4f1").addClass ("background_color");
+    $ ("#c4f2").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c4f2").mouseout (function (){
+    $ ("#c1f2").removeClass ();
+    $ ("#c4f1").removeClass ();
+    $ ("#c4f2").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c5f2").mouseover (function (){
+    $ ("#c1f2").addClass ("background_color");
+    $ ("#c5f1").addClass ("background_color");
+    $ ("#c5f2").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c5f2").mouseout (function (){
+    $ ("#c1f2").removeClass ();
+    $ ("#c5f1").removeClass ();
+    $ ("#c5f2").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c6f2").mouseover (function (){
+    $ ("#c1f2").addClass ("background_color");
+    $ ("#c6f1").addClass ("background_color");
+    $ ("#c6f2").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c6f2").mouseout (function (){
+    $ ("#c1f2").removeClass ();
+    $ ("#c6f1").removeClass ();
+    $ ("#c6f2").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c7f2").mouseover (function (){
+    $ ("#c1f2").addClass ("background_color");
+    $ ("#c7f1").addClass ("background_color");
+    $ ("#c7f2").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c7f2").mouseout (function (){
+    $ ("#c1f2").removeClass ();
+    $ ("#c7f1").removeClass ();
+    $ ("#c7f2").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c8f2").mouseover (function (){
+    $ ("#c1f2").addClass ("background_color");
+    $ ("#c8f1").addClass ("background_color");
+    $ ("#c8f2").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c8f2").mouseout (function (){
+    $ ("#c1f2").removeClass ();
+    $ ("#c8f1").removeClass ();
+    $ ("#c8f2").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c2f3").mouseover (function (){
+    $ ("#c1f3").addClass ("background_color");
+    $ ("#c2f1").addClass ("background_color");
+    $ ("#c2f3").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c2f3").mouseout (function (){
+    $ ("#c1f3").removeClass ();
+    $ ("#c2f1").removeClass ();
+    $ ("#c2f3").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c3f3").mouseover (function (){
+    $ ("#c1f3").addClass ("background_color");
+    $ ("#c3f1").addClass ("background_color");
+    $ ("#c3f3").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c3f3").mouseout (function (){
+    $ ("#c1f3").removeClass ();
+    $ ("#c3f1").removeClass ();
+    $ ("#c3f3").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c4f3").mouseover (function (){
+    $ ("#c1f3").addClass ("background_color");
+    $ ("#c4f1").addClass ("background_color");
+    $ ("#c4f3").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c4f3").mouseout (function (){
+    $ ("#c1f3").removeClass ();
+    $ ("#c4f1").removeClass ();
+    $ ("#c4f3").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c5f3").mouseover (function (){
+    $ ("#c1f3").addClass ("background_color");
+    $ ("#c5f1").addClass ("background_color");
+    $ ("#c5f3").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c5f3").mouseout (function (){
+    $ ("#c1f3").removeClass ();
+    $ ("#c5f1").removeClass ();
+    $ ("#c5f3").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c6f3").mouseover (function (){
+    $ ("#c1f3").addClass ("background_color");
+    $ ("#c6f1").addClass ("background_color");
+    $ ("#c6f3").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c6f3").mouseout (function (){
+    $ ("#c1f3").removeClass ();
+    $ ("#c6f1").removeClass ();
+    $ ("#c6f3").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c7f3").mouseover (function (){
+    $ ("#c1f3").addClass ("background_color");
+    $ ("#c7f1").addClass ("background_color");
+    $ ("#c7f3").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c7f3").mouseout (function (){
+    $ ("#c1f3").removeClass ();
+    $ ("#c7f1").removeClass ();
+    $ ("#c7f3").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c8f3").mouseover (function (){
+    $ ("#c1f3").addClass ("background_color");
+    $ ("#c8f1").addClass ("background_color");
+    $ ("#c8f3").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c8f3").mouseout (function (){
+    $ ("#c1f3").removeClass ();
+    $ ("#c8f1").removeClass ();
+    $ ("#c8f3").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c2f4").mouseover (function (){
+    $ ("#c1f4").addClass ("background_color");
+    $ ("#c2f1").addClass ("background_color");
+    $ ("#c2f4").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c2f4").mouseout (function (){
+    $ ("#c1f4").removeClass ();
+    $ ("#c2f1").removeClass ();
+    $ ("#c2f4").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c3f4").mouseover (function (){
+    $ ("#c1f4").addClass ("background_color");
+    $ ("#c3f1").addClass ("background_color");
+    $ ("#c3f4").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c3f4").mouseout (function (){
+    $ ("#c1f4").removeClass ();
+    $ ("#c3f1").removeClass ();
+    $ ("#c3f4").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c4f4").mouseover (function (){
+    $ ("#c1f4").addClass ("background_color");
+    $ ("#c4f1").addClass ("background_color");
+    $ ("#c4f4").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c4f4").mouseout (function (){
+    $ ("#c1f4").removeClass ();
+    $ ("#c4f1").removeClass ();
+    $ ("#c4f4").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c5f4").mouseover (function (){
+    $ ("#c1f4").addClass ("background_color");
+    $ ("#c5f1").addClass ("background_color");
+    $ ("#c5f4").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c5f4").mouseout (function (){
+    $ ("#c1f4").removeClass ();
+    $ ("#c5f1").removeClass ();
+    $ ("#c5f4").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c6f4").mouseover (function (){
+    $ ("#c1f4").addClass ("background_color");
+    $ ("#c6f1").addClass ("background_color");
+    $ ("#c6f4").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c6f4").mouseout (function (){
+    $ ("#c1f4").removeClass ();
+    $ ("#c6f1").removeClass ();
+    $ ("#c6f4").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c7f4").mouseover (function (){
+    $ ("#c1f4").addClass ("background_color");
+    $ ("#c7f1").addClass ("background_color");
+    $ ("#c7f4").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c7f4").mouseout (function (){
+    $ ("#c1f4").removeClass ();
+    $ ("#c7f1").removeClass ();
+    $ ("#c7f4").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c8f4").mouseover (function (){
+    $ ("#c1f4").addClass ("background_color");
+    $ ("#c8f1").addClass ("background_color");
+    $ ("#c8f4").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c8f4").mouseout (function (){
+    $ ("#c1f4").removeClass ();
+    $ ("#c8f1").removeClass ();
+    $ ("#c8f4").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c2f5").mouseover (function (){
+    $ ("#c1f5").addClass ("background_color");
+    $ ("#c2f1").addClass ("background_color");
+    $ ("#c2f5").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c2f5").mouseout (function (){
+    $ ("#c1f5").removeClass ();
+    $ ("#c2f1").removeClass ();
+    $ ("#c2f5").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c3f5").mouseover (function (){
+    $ ("#c1f5").addClass ("background_color");
+    $ ("#c3f1").addClass ("background_color");
+    $ ("#c3f5").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c3f5").mouseout (function (){
+    $ ("#c1f5").removeClass ();
+    $ ("#c3f1").removeClass ();
+    $ ("#c3f5").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c4f5").mouseover (function (){
+    $ ("#c1f5").addClass ("background_color");
+    $ ("#c4f1").addClass ("background_color");
+    $ ("#c4f5").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c4f5").mouseout (function (){
+    $ ("#c1f5").removeClass ();
+    $ ("#c4f1").removeClass ();
+    $ ("#c4f5").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c5f5").mouseover (function (){
+    $ ("#c1f5").addClass ("background_color");
+    $ ("#c5f1").addClass ("background_color");
+    $ ("#c5f5").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c5f5").mouseout (function (){
+    $ ("#c1f5").removeClass ();
+    $ ("#c5f1").removeClass ();
+    $ ("#c5f5").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c6f5").mouseover (function (){
+    $ ("#c1f5").addClass ("background_color");
+    $ ("#c6f1").addClass ("background_color");
+    $ ("#c6f5").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c6f5").mouseout (function (){
+    $ ("#c1f5").removeClass ();
+    $ ("#c6f1").removeClass ();
+    $ ("#c6f5").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c7f5").mouseover (function (){
+    $ ("#c1f5").addClass ("background_color");
+    $ ("#c7f1").addClass ("background_color");
+    $ ("#c7f5").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c7f5").mouseout (function (){
+    $ ("#c1f5").removeClass ();
+    $ ("#c7f1").removeClass ();
+    $ ("#c7f5").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c8f5").mouseover (function (){
+    $ ("#c1f5").addClass ("background_color");
+    $ ("#c8f1").addClass ("background_color");
+    $ ("#c8f5").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c8f5").mouseout (function (){
+    $ ("#c1f5").removeClass ();
+    $ ("#c8f1").removeClass ();
+    $ ("#c8f5").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c2f6").mouseover (function (){
+    $ ("#c1f6").addClass ("background_color");
+    $ ("#c2f1").addClass ("background_color");
+    $ ("#c2f6").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c2f6").mouseout (function (){
+    $ ("#c1f6").removeClass ();
+    $ ("#c2f1").removeClass ();
+    $ ("#c2f6").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c3f6").mouseover (function (){
+    $ ("#c1f6").addClass ("background_color");
+    $ ("#c3f1").addClass ("background_color");
+    $ ("#c3f6").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c3f6").mouseout (function (){
+    $ ("#c1f6").removeClass ();
+    $ ("#c3f1").removeClass ();
+    $ ("#c3f6").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c4f6").mouseover (function (){
+    $ ("#c1f6").addClass ("background_color");
+    $ ("#c4f1").addClass ("background_color");
+    $ ("#c4f6").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c4f6").mouseout (function (){
+    $ ("#c1f6").removeClass ();
+    $ ("#c4f1").removeClass ();
+    $ ("#c4f6").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c5f6").mouseover (function (){
+    $ ("#c1f6").addClass ("background_color");
+    $ ("#c5f1").addClass ("background_color");
+    $ ("#c5f6").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c5f6").mouseout (function (){
+    $ ("#c1f6").removeClass ();
+    $ ("#c5f1").removeClass ();
+    $ ("#c5f6").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c6f6").mouseover (function (){
+    $ ("#c1f6").addClass ("background_color");
+    $ ("#c6f1").addClass ("background_color");
+    $ ("#c6f6").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c6f6").mouseout (function (){
+    $ ("#c1f6").removeClass ();
+    $ ("#c6f1").removeClass ();
+    $ ("#c6f6").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c7f6").mouseover (function (){
+    $ ("#c1f6").addClass ("background_color");
+    $ ("#c7f1").addClass ("background_color");
+    $ ("#c7f6").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c7f6").mouseout (function (){
+    $ ("#c1f6").removeClass ();
+    $ ("#c7f1").removeClass ();
+    $ ("#c7f6").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c8f6").mouseover (function (){
+    $ ("#c1f6").addClass ("background_color");
+    $ ("#c8f1").addClass ("background_color");
+    $ ("#c8f6").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c8f6").mouseout (function (){
+    $ ("#c1f6").removeClass ();
+    $ ("#c8f1").removeClass ();
+    $ ("#c8f6").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c2f7").mouseover (function (){
+    $ ("#c1f7").addClass ("background_color");
+    $ ("#c2f1").addClass ("background_color");
+    $ ("#c2f7").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c2f7").mouseout (function (){
+    $ ("#c1f7").removeClass ();
+    $ ("#c2f1").removeClass ();
+    $ ("#c2f7").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c3f7").mouseover (function (){
+    $ ("#c1f7").addClass ("background_color");
+    $ ("#c3f1").addClass ("background_color");
+    $ ("#c3f7").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c3f7").mouseout (function (){
+    $ ("#c1f7").removeClass ();
+    $ ("#c3f1").removeClass ();
+    $ ("#c3f7").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c4f7").mouseover (function (){
+    $ ("#c1f7").addClass ("background_color");
+    $ ("#c4f1").addClass ("background_color");
+    $ ("#c4f7").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c4f7").mouseout (function (){
+    $ ("#c1f7").removeClass ();
+    $ ("#c4f1").removeClass ();
+    $ ("#c4f7").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c5f7").mouseover (function (){
+    $ ("#c1f7").addClass ("background_color");
+    $ ("#c5f1").addClass ("background_color");
+    $ ("#c5f7").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c5f7").mouseout (function (){
+    $ ("#c1f7").removeClass ();
+    $ ("#c5f1").removeClass ();
+    $ ("#c5f7").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c6f7").mouseover (function (){
+    $ ("#c1f7").addClass ("background_color");
+    $ ("#c6f1").addClass ("background_color");
+    $ ("#c6f7").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c6f7").mouseout (function (){
+    $ ("#c1f7").removeClass ();
+    $ ("#c6f1").removeClass ();
+    $ ("#c6f7").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c7f7").mouseover (function (){
+    $ ("#c1f7").addClass ("background_color");
+    $ ("#c7f1").addClass ("background_color");
+    $ ("#c7f7").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c7f7").mouseout (function (){
+    $ ("#c1f7").removeClass ();
+    $ ("#c7f1").removeClass ();
+    $ ("#c7f7").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c8f7").mouseover (function (){
+    $ ("#c1f7").addClass ("background_color");
+    $ ("#c8f1").addClass ("background_color");
+    $ ("#c8f7").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c8f7").mouseout (function (){
+    $ ("#c1f7").removeClass ();
+    $ ("#c8f1").removeClass ();
+    $ ("#c8f7").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c2f8").mouseover (function (){
+    $ ("#c1f8").addClass ("background_color");
+    $ ("#c2f1").addClass ("background_color");
+    $ ("#c2f8").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c2f8").mouseout (function (){
+    $ ("#c1f8").removeClass ();
+    $ ("#c2f1").removeClass ();
+    $ ("#c2f8").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c3f8").mouseover (function (){
+    $ ("#c1f8").addClass ("background_color");
+    $ ("#c3f1").addClass ("background_color");
+    $ ("#c3f8").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c3f8").mouseout (function (){
+    $ ("#c1f8").removeClass ();
+    $ ("#c3f1").removeClass ();
+    $ ("#c3f8").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c4f8").mouseover (function (){
+    $ ("#c1f8").addClass ("background_color");
+    $ ("#c4f1").addClass ("background_color");
+    $ ("#c4f8").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c4f8").mouseout (function (){
+    $ ("#c1f8").removeClass ();
+    $ ("#c4f1").removeClass ();
+    $ ("#c4f8").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c5f8").mouseover (function (){
+    $ ("#c1f8").addClass ("background_color");
+    $ ("#c5f1").addClass ("background_color");
+    $ ("#c5f8").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c5f8").mouseout (function (){
+    $ ("#c1f8").removeClass ();
+    $ ("#c5f1").removeClass ();
+    $ ("#c5f8").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c6f8").mouseover (function (){
+    $ ("#c1f8").addClass ("background_color");
+    $ ("#c6f1").addClass ("background_color");
+    $ ("#c6f8").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c6f8").mouseout (function (){
+    $ ("#c1f8").removeClass ();
+    $ ("#c6f1").removeClass ();
+    $ ("#c6f8").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c7f8").mouseover (function (){
+    $ ("#c1f8").addClass ("background_color");
+    $ ("#c7f1").addClass ("background_color");
+    $ ("#c7f8").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c7f8").mouseout (function (){
+    $ ("#c1f8").removeClass ();
+    $ ("#c7f1").removeClass ();
+    $ ("#c7f8").removeClass ();
+  });//cierre función mouseout
+
+    $ ("#c8f8").mouseover (function (){
+    $ ("#c1f8").addClass ("background_color");
+    $ ("#c8f1").addClass ("background_color");
+    $ ("#c8f8").addClass ("background_color");
+  });//cierre función mouseover
+  
+    $ ("#c8f8").mouseout (function (){
+    $ ("#c1f8").removeClass ();
+    $ ("#c8f1").removeClass ();
+    $ ("#c8f8").removeClass ();
+  });//cierre función mouseout
+
+		$ ("#c2f1").click (function (){
+
+      var c2f1=2;
+		  var numero = prompt ("Escribe un número");	
+		
+    if (numero==c2f1){
+			
+			$("#c2f1").text(c2f1);
+			
+		}else{
+			
+			$("#c2f1").text("");
+			alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+			
+		}//fin de else
+	
+	});//cierre función click
+	
+    $ ("#c3f1").click (function (){
+
+      var c3f1=10;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c3f1){
+      
+      $("#c3f1").text(c3f1);
+      
+    }else{
+      
+      $("#c3f1").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+
+    });//cierre función click
+
+    $ ("#c4f1").click (function (){
+
+      var c4f1=7;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c4f1){
+      
+      $("#c4f1").text(c4f1);
+      
+    }else{
+      
+      $("#c4f1").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c5f1").click (function (){
+
+      var c5f1=4;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c5f1){
+      
+      $("#c5f1").text(c5f1);
+      
+    }else{
+      
+      $("#c5f1").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    /*$ ("#c6f1").click (function (){
+
+      var c6f1=8;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c6f1){
+      
+      $("#c6f1").text(c6f1);
+      
+    }else{
+      
+      $("#c6f1").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+
+    $ ("#c7f1").click (function (){
+
+      var c7f1=3;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c7f1){
+      
+      $("#c7f1").text(c7f1);
+      
+    }else{
+      
+      $("#c7f1").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c8f1").click (function (){
+
+      var c8f1=9;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c8f1){
+      
+      $("#c8f1").text(c8f1);
+      
+    }else{
+      
+      $("#c8f1").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c1f2").click (function (){
+
+      var c1f2=50;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c1f2){
+      
+      $("#c1f2").text(c1f2);
+      
+    }else{
+      
+      $("#c1f2").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    /*$ ("#c2f2").click (function (){
+
+      var c2f2=100;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c2f2){
+      
+      $("#c2f2").text(c2f2);
+      
+    }else{
+      
+      $("#c2f2").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+
+    $ ("#c3f2").click (function (){
+
+      var c3f2=500;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c3f2){
+      
+      $("#c3f2").text(c3f2);
+      
+    }else{
+      
+      $("#c3f2").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click (10)
+
+$ ("#c4f2").click (function (){
+
+      var c4f2=350;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c4f2){
+      
+      $("#c4f2").text(c4f2);
+      
+    }else{
+      
+      $("#c4f2").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+  
+    $ ("#c5f2").click (function (){
+
+      var c5f2=200;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c5f2){
+      
+      $("#c5f2").text(c5f2);
+      
+    }else{
+      
+      $("#c5f2").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+
+    });//cierre función click
+
+    $ ("#c6f2").click (function (){
+
+      var c6f2=400;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c6f2){
+      
+      $("#c6f2").text(c6f2);
+      
+    }else{
+      
+      $("#c6f2").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    /*$ ("#c7f2").click (function (){
+
+      var c7f2=150;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c7f2){
+      
+      $("#c1f7").text(c7f2);
+      
+    }else{
+      
+      $("#c7f2").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+
+    $ ("#c8f2").click (function (){
+
+      var c8f2=450;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c8f2){
+      
+      $("#c8f2").text(c8f2);
+      
+    }else{
+      
+      $("#c8f2").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    /*$ ("#c1f3").click (function (){
+
+      var c1f3=8;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c1f3){
+      
+      $("#c1f3").text(c1f3);
+      
+    }else{
+      
+      $("#c1f3").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+
+    $ ("#c2f3").click (function (){
+
+      var c2f3=16;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c2f3){
+      
+      $("#c2f3").text(c2f3);
+      
+    }else{
+      
+      $("#c2f3").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c3f3").click (function (){
+
+      var c3f3=80;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c3f3){
+      
+      $("#c3f3").text(c3f3);
+      
+    }else{
+      
+      $("#c3f3").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c4f3").click (function (){
+
+      var c4f3=56;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c4f3){
+      
+      $("#c4f3").text(c4f3);
+      
+    }else{
+      
+      $("#c4f3").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c5f3").click (function (){
+
+      var c5f3=32;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c5f3){
+      
+      $("#c5f3").text(c5f3);
+      
+    }else{
+      
+      $("#c5f3").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click (20)
+
+    /*$ ("#c6f3").click (function (){
+
+      var c6f3=64;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c6f3){
+      
+      $("#c6f3").text(c6f3);
+      
+    }else{
+      
+      $("#c6f3").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+  
+    $ ("#c7f3").click (function (){
+
+      var c7f3=24;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c7f3){
+      
+      $("#c7f3").text(c7f3);
+      
+    }else{
+      
+      $("#c7f3").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+
+    });//cierre función click
+
+    $ ("#c8f3").click (function (){
+
+      var c8f3=72;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c8f3){
+      
+      $("#c8f3").text(c8f3);
+      
+    }else{
+      
+      $("#c8f3").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c1f4").click (function (){
+
+      var c1f4=5;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c1f4){
+      
+      $("#c1f4").text(c1f4);
+      
+    }else{
+      
+      $("#c1f4").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c2f4").click (function (){
+
+      var c2f4=10;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c2f4){
+      
+      $("#c2f4").text(c2f4);
+      
+    }else{
+      
+      $("#c2f4").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c3f4").click (function (){
+
+      var c3f4=50;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c3f4){
+      
+      $("#c3f4").text(c3f4);
+      
+    }else{
+      
+      $("#c3f4").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    /*$ ("#c4f4").click (function (){
+
+      var c4f4=35;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c4f4){
+      
+      $("#c4f4").text(c4f4);
+      
+    }else{
+      
+      $("#c4f4").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+
+    $ ("#c5f4").click (function (){
+
+      var c5f4=20;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c5f4){
+      
+      $("#c5f4").text(c5f4);
+      
+    }else{
+      
+      $("#c5f4").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c6f4").click (function (){
+
+      var c6f4=40;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c6f4){
+      
+      $("#c6f4").text(c6f4);
+      
+    }else{
+      
+      $("#c6f4").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c7f4").click (function (){
+
+      var c7f4=15;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c7f4){
+      
+      $("#c7f4").text(c7f4);
+      
+    }else{
+      
+      $("#c7f4").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click (30)
+
+    /*$ ("#c8f4").click (function (){
+
+      var c8f4=45;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c8f4){
+      
+      $("#c8f4").text(c8f4);
+      
+    }else{
+      
+      $("#c8f4").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+  
+    $ ("#c1f5").click (function (){
+
+      var c1f5=30;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c1f5){
+      
+      $("#c1f5").text(c1f5);
+      
+    }else{
+      
+      $("#c1f5").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+
+    });//cierre función click
+
+    $ ("#c2f5").click (function (){
+
+      var c2f5=60;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c2f5){
+      
+      $("#c2f5").text(c2f5);
+      
+    }else{
+      
+      $("#c2f5").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c3f5").click (function (){
+
+      var c3f5=300;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c3f5){
+      
+      $("#c3f5").text(c3f5);
+      
+    }else{
+      
+      $("#c3f5").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c4f5").click (function (){
+
+      var c4f5=210;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c4f5){
+      
+      $("#c4f5").text(c4f5);
+      
+    }else{
+      
+      $("#c4f5").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    /*$ ("#c5f5").click (function (){
+
+      var c5f5=120;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c5f5){
+      
+      $("#c5f5").text(c5f5);
+      
+    }else{
+      
+      $("#c5f5").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+
+    $ ("#c6f5").click (function (){
+
+      var c6f5=240;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c6f5){
+      
+      $("#c6f5").text(c6f5);
+      
+    }else{
+      
+      $("#c6f5").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    /*$ ("#c7f5").click (function (){
+
+      var c7f5=90;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c7f5){
+      
+      $("#c1f7").text(c7f5);
+      
+    }else{
+      
+      $("#c7f5").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+
+    $ ("#c8f5").click (function (){
+
+      var c8f5=270;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c8f5){
+      
+      $("#c8f5").text(c8f5);
+      
+    }else{
+      
+      $("#c8f5").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c1f6").click (function (){
+
+      var c1f6=9;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c1f6){
+      
+      $("#c1f6").text(c1f6);
+      
+    }else{
+      
+      $("#c1f6").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click (40)
+
+    $ ("#c2f6").click (function (){
+
+      var c2f6=18;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c2f6){
+      
+      $("#c2f6").text(c2f6);
+      
+    }else{
+      
+      $("#c2f6").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+  
+    /*$ ("#c3f6").click (function (){
+
+      var c3f6=90;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c3f6){
+      
+      $("#c3f6").text(c3f6);
+      
+    }else{
+      
+      $("#c3f6").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+
+    });//cierre función click*/
+
+    $ ("#c4f6").click (function (){
+
+      var c4f6=63;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c4f6){
+      
+      $("#c4f6").text(c4f6);
+      
+    }else{
+      
+      $("#c4f6").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c5f6").click (function (){
+
+      var c5f6=36;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c5f6){
+      
+      $("#c5f6").text(c5f6);
+      
+    }else{
+      
+      $("#c5f6").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c6f6").click (function (){
+
+      var c6f6=72;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c6f6){
+      
+      $("#c6f6").text(c6f6);
+      
+    }else{
+      
+      $("#c6f6").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c7f6").click (function (){
+
+      var c7f6=27;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c7f6){
+      
+      $("#c7f6").text(c7f6);
+      
+    }else{
+      
+      $("#c7f6").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    /*$ ("#c8f6").click (function (){
+
+      var c8f6=81;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c8f6){
+      
+      $("#c8f6").text(c8f6);
+      
+    }else{
+      
+      $("#c8f6").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+
+    $ ("#c1f7").click (function (){
+
+      var c1f7=20;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c1f7){
+      
+      $("#c1f7").text(c1f7);
+      
+    }else{
+      
+      $("#c1f7").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c2f7").click (function (){
+
+      var c2f7=40;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c2f7){
+      
+      $("#c2f7").text(c2f7);
+      
+    }else{
+      
+      $("#c2f7").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    /*$ ("#c3f7").click (function (){
+
+      var c3f7=200;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c3f7){
+      
+      $("#c3f7").text(c3f7);
+      
+    }else{
+      
+      $("#c3f7").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click (50)*/
+
+    $ ("#c4f7").click (function (){
+
+      var c4f7=140;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c4f7){
+      
+      $("#c4f7").text(c4f7);
+      
+    }else{
+      
+      $("#c4f7").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+  
+    $ ("#c5f7").click (function (){
+
+      var c5f7=80;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c5f7){
+      
+      $("#c5f7").text(c5f7);
+      
+    }else{
+      
+      $("#c5f7").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+
+    });//cierre función click
+
+    /*$ ("#c6f7").click (function (){
+
+      var c6f7=160;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c6f7){
+      
+      $("#c6f7").text(c6f7);
+      
+    }else{
+      
+      $("#c6f7").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click*/
+
+    $ ("#c7f7").click (function (){
+
+      var c7f7=60;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c7f7){
+      
+      $("#c7f7").text(c7f7);
+      
+    }else{
+      
+      $("#c7f7").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c8f7").click (function (){
+
+      var c8f7=180;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c8f7){
+      
+      $("#c8f7").text(c8f7);
+      
+    }else{
+      
+      $("#c8f7").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c1f8").click (function (){
+
+      var c1f8=15;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c1f8){
+      
+      $("#c1f8").text(c1f8);
+      
+    }else{
+      
+      $("#c1f8").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c2f8").click (function (){
+
+      var c2f8=30;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c2f8){
+      
+      $("#c2f8").text(c2f8);
+      
+    }else{
+      
+      $("#c2f8").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c3f8").click (function (){
+
+      var c3f8=150;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c3f8){
+      
+      $("#c3f8").text(c3f8);
+      
+    }else{
+      
+      $("#c3f8").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    /*$ ("#c4f8").click (function (){
+
+      var c4f8=105;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c4f8){
+      
+      $("#c4f8").text(c4f8);
+      
+    }else{
+      
+      $("#c4f8").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c5f8").click (function (){
+
+      var c5f8=60;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c5f8){
+      
+      $("#c5f8").text(c5f8);
+      
+    }else{
+      
+      $("#c5f8").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click (60)*/
+
+     $ ("#c6f8").click (function (){
+
+      var c6f8=120;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c6f8){
+      
+      $("#c6f8").text(c6f8);
+      
+    }else{
+      
+      $("#c6f8").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c7f8").click (function (){
+
+      var c7f8=45;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c7f8){
+      
+      $("#c7f8").text(c7f8);
+      
+    }else{
+      
+      $("#c7f8").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click
+
+    $ ("#c8f8").click (function (){
+
+      var c8f8=135;
+      var numero = prompt ("Escribe un número");  
+    
+    if (numero==c8f8){
+      
+      $("#c8f8").text(c8f8);
+      
+    }else{
+      
+      $("#c8f8").text("");
+      alert ('No es correcto; ¡ánimo! Inténtalo otra vez.')
+      
+    }//fin de else
+  
+  });//cierre función click (63)
+  
+
+});//fin de ready
+
+</script>
+
+</head>
+
+
+<body>
+
+<form id="form1" name="form1" method="post" action="">
+  <!--Formulario-->
+  <p>
+    <label for="nombre">Escribe tu nombre:</label>
+    <!--label=etiqueta-->
+    <input type="text" placeholder="Tu nombre" class="required" name="nombre"  id="nombre" />
+    <!--input=caja de texto; no tiene etiqueta de cierre; el atributo placeholder indica el texto que aparece en la caja de texto y que desaparece al escribir el dato correspondiente-->
+  </p>
+  <p>
+    <label for="edad">¿Cuántos años tienes?</label>
+    <input type="text" placeholder="Escribe aquí tu edad" name="edad" id="edad" />
+  </p>
+  <p>
+    <input type="button" name="button" id="button" value="Aceptar" />
+    <!--Aquí se ejecuta la función al hacer clic-->
+  </p>
+</form>
+<table width="600" border="1" cellspacing="0" cellpadding="0">
+    <!--Tabla-->
+  <caption>
+  Biderketa taula
+  <!--Título de la tabla-->
+  </caption>
+  <tr>
+    <!--Fila1-->
+    <td width="100" height="50" id="c1f1" scope="col">x</td>
+     <!--Celda-->
+    <td width="100" height="50" id="c2f1" scope="col">&nbsp;</td>
+    <td width="100" height="50" id="c3f1" scope="col">&nbsp;</td>
+    <td width="100" height="50" id="c4f1" scope="col">&nbsp;</td>
+    <td width="100" height="50" id="c5f1" scope="col">&nbsp;</td>
+    <td width="100" height="50" id="c6f1" scope="col">8</td>
+    <td width="100" height="50" id="c7f1" scope="col">&nbsp;</td>
+    <td width="100" height="50" id="c8f1" scope="col">&nbsp;</td>
+
+  </tr>
+  <tr>
+      <!--Fila2-->
+    <td width="100" height="50" id="c1f2" scope="row">&nbsp;</td>
+      <!--Celda-->
+    <td width="100" height="50" id="c2f2">100</td>
+    <td width="100" height="50" id="c3f2">&nbsp;</td>
+    <td width="100" height="50" id="c4f2">&nbsp;</td>
+    <td width="100" height="50" id="c5f2">&nbsp;</td>
+    <td width="100" height="50" id="c6f2">&nbsp;</td>
+    <td width="100" height="50" id="c7f2">150</td>
+    <td width="100" height="50" id="c8f2">&nbsp;</td>
+  </tr>
+  <tr>
+      <!--Fila3-->
+    <td width="100" height="50" id="c1f3" scope="row">8</td>
+    <td width="100" height="50" id="c2f3">&nbsp;</td>
+    <td width="100" height="50" id="c3f3">&nbsp;</td>
+    <td width="100" height="50" id="c4f3">&nbsp;</td>
+    <td width="100" height="50" id="c5f3">&nbsp;</td>
+    <td width="100" height="50" id="c6f3">64</td>
+    <td width="100" height="50" id="c7f3">&nbsp;</td>
+    <td width="100" height="50" id="c8f3">&nbsp;</td>
+  </tr>
+  <tr>
+      <!--Fila4-->
+    <td width="100" height="50" id="c1f4" scope="row">&nbsp;</td>
+    <td width="100" height="50" id="c2f4">&nbsp;</td>
+    <td width="100" height="50" id="c3f4">&nbsp;</td>
+    <td width="100" height="50" id="c4f4">35</td>
+    <td width="100" height="50" id="c5f4">&nbsp;</td>
+    <td width="100" height="50" id="c6f4">&nbsp;</td>
+    <td width="100" height="50" id="c7f4">&nbsp;</td>
+    <td width="100" height="50" id="c8f4">45</td>
+  </tr>
+  <tr>
+      <!--Fila5-->
+    <td width="100" height="50" id="c1f5" scope="row">&nbsp;</td>
+    <td width="100" height="50" id="c2f5">&nbsp;</td>
+    <td width="100" height="50" id="c3f5">&nbsp;</td>
+    <td width="100" height="50" id="c4f5">&nbsp;</td>
+    <td width="100" height="50" id="c5f5">120</td>
+    <td width="100" height="50" id="c6f5">&nbsp;</td>
+    <td width="100" height="50" id="c7f5">90</td>
+    <td width="100" height="50" id="c8f5">&nbsp;</td>
+  </tr>
+  <tr>
+      <!--Fila6-->
+    <td width="100" height="50" id="c1f6" scope="row">&nbsp;</td>
+    <td width="100" height="50" id="c2f6">&nbsp;</td>
+    <td width="100" height="50" id="c3f6" >90</td>
+    <td width="100" height="50" id="c4f6" >&nbsp;</td>
+    <td width="100" height="50" id="c5f6" >&nbsp;</td>
+    <td width="100" height="50" id="c6f6" >&nbsp;</td>
+    <td width="100" height="50" id="c7f6" >&nbsp;</td>
+    <td width="100" height="50" id="c8f6" >81</td>
+  </tr>
+
+ <tr>
+      <!--Fila7-->
+    <td width="100" height="50" id="c1f7" scope="row">&nbsp;</td>
+    <td width="100" height="50" id="c2f7">&nbsp;</td>
+    <td width="100" height="50" id="c3f7">200</td>
+    <td width="100" height="50" id="c4f7">&nbsp;</td>
+    <td width="100" height="50" id="c5f7">&nbsp;</td>
+    <td width="100" height="50" id="c6f7">160</td>
+    <td width="100" height="50" id="c7f7">&nbsp;</td>
+    <td width="100" height="50" id="c8f7">&nbsp;</td>
+  </tr>
+
+   <tr>
+      <!--Fila8-->
+    <td width="100" height="50" id="c1f8" scope="row">&nbsp;</td>
+    <td width="100" height="50" id="c2f8">&nbsp;</td>
+    <td width="100" height="50" id="c3f8">&nbsp;</td>
+    <td width="100" height="50" id="c4f8">105</td>
+    <td width="100" height="50" id="c5f8">60</td>
+    <td width="100" height="50" id="c6f8">&nbsp;</td>
+    <td width="100" height="50" id="c7f8">&nbsp;</td>
+    <td width="100" height="50" id="c8f8">&nbsp;</td>
+  </tr>
+
+</table>
+
+
+</body>
+</html>
